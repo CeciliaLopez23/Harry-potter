@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS DOCUMENT */
+*{
+margin:0px; /* esta opcion permite configurar los margenes*/
+padding:0px;
+}
+html{
+	background: url(../PROYECTO2/IMAGENES/fondito.jpg);
+}
+body{
+	color:#161313; /* color de texto en todo el cuerpo*/
+}
+#contenedor{
+	width:900px;
+	margin:auto;
+	margin-top:5px;
+	margin-bottom:20px;	
+}
+header{
+	height:110px;
+	background: url(../PROYECTO2/IMAGENES/fondo7.png);
+}
+
+.foto1 {
+	padding: 5px;
+	margin: 0px;
+	float: left;
+	width: 110;
+	height="110";
+}
+.foto2 {
+	padding: 5px;
+	margin: 0px;
+	float: right;
+	width: 110;
+	height="110";
+}
+.foto3 {
+	padding: 5px;
+	margin: 0px;
+	float: center;
+	width: 110;
+	height="150";
+}
+
+#titulo h1{
+	width:900px;
+	font-size:24px;
+	text-align:center;
+	float:center;
+	line-height:110px;
+	border:#0DOC0C 2px solid;	
+}
+#logo{
+	width:100px;
+	font-size:10px;
+	text-align:center;
+	float:center;
+	line-height:110px;
+	border:#0D0C0C 2px solid;
+}
+nav{
+	height:40px;
+	border-color:#FFFFFF;
+	border:#0D0C0C 2px solid;
+	margin-top:10px;
+	background-color: #A0522D;
+
+}
+nav h2{
+	text-align: center;
+	line-height: 40px;
+    font: comic Sans Ms;
+	size: 17px;
+	color: #FFFFFF;
+
+	}
+#informacion{
+		width:895px;
+		height:1540px;
+		float:right;
+		border:#0D0C0C 2px solid;
+		margin-top:5px;
+		margin-bottom:7px;
+		background: url(../PROYECTO2/IMAGENES/fondo6.png);
+	}
+
+	
+	#inflormacion h3{
+		text-align:center;
+		line-height:300px;
+		
+	}
+	
+	.foto4 {
+	padding: 5px;
+	margin: 0px;
+	float: center;
+	width: 110;
+	height="150";
+}
+
+.video1 {
+	padding: 0px;
+	margin: 10px;
+	float: center;
+	width: 800px;
+	height: 400px;
+	
+	
+	}
+
+	
+	footer{
+		border:#0D0C0C 2px solid;
+		height:50px;
+		clear:both;
+		background-color:#F5DEB3;
+	} 
+
+	footer h6{
+			text-align:center;
+			size:17;
+		}

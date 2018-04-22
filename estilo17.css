@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS DOCUMENT */
+*{
+margin:0px; /* esta opcion permite configurar los margenes*/
+padding:0px;
+}
+html{
+	background:url(../PROYECTO2/IMAGENES/af.jpg);
+}
+body{
+	color:#161313; /* color de texto en todo el cupero*/
+}
+#contenedor{
+	width:900px;
+	margin:auto;
+	margin-top:5px;
+	margin-bottom:20px;	
+}
+header{
+	height:150px;
+	background-color:#000000;
+}
+
+.foto1 {
+	padding: 5px;
+	margin: 0px;
+	float: center;
+	width: 110;
+	height:150;
+	position
+}
+
+#titulo h1{
+	width:900px;
+	height:600px;
+	font-size:9px;
+	text-align:center;
+	float:center;
+	line-height:110px;
+	border:#0DOC0C 2px solid;	
+}
+#logo{
+	width:350px;
+	font-size:10px;
+	text-align:center;
+	float:center;
+	line-height:110px;
+	border:#0D0C0C 2px solid;
+}
+nav{
+	height:70px;
+	border-color:#7DD82B;
+	border:#0D0C0C 2px solid;
+	margin-top:10px;
+	background-color:#36648B;
+}
+nav h2{
+		text-align:center;
+		line-height:20px;
+		font-size:17px;
+	}
+#informacion{
+		width:580px;
+		height:1400px;
+		float:left;
+		border:#0D0C0C 2px solid;
+		margin-top:5px;
+		margin-bottom:5px;
+		background-color: #4A708B;
+	}
+	#inflormacion h3{
+		text-align:center;
+		line-height:20px;
+	}
+	
+	.foto2 {
+	padding: 40px;
+	margin: 0px;
+	float: center;
+	width: 110;
+	height:50;
+
+	
+}
+	aside{
+		width:300px;
+		height:1400px;
+		float:right;
+		border:#0D0C0C 2px solid;
+		margin-top:5px;
+		margin-bottom:5px;
+		background-color:#4A708B;
+	}
+	
+	aside ul{
+		list-style:; /*se elimina la viñeta*/
+		display: block;
+        
+	}
+
+	aside ul li{
+	float: left; /*se alinean los botones*/
+	margin:1px; /*Distacia de separacion entre botones*/
+}
+	
+	aside h4{
+		text-align:center;
+		line-height:20px;
+	}
+	footer{
+		border:#0D0C0C 2px solid;
+		height:50px;
+		clear:both;
+		background-color:#000000;
+	}
+	footer h5{
+			text-align:center;
+			color:#FFFFFF;
+		}
+		
+		

@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS DOCUMENT */
+*{
+margin:0px; /* esta opcion permite configurar los margenes*/
+padding:0px;
+}
+html{
+	background: url(../PROYECTO2/IMAGENES/hufflepuff.jpg);
+}
+body{
+	color:#161313; /* color de texto en todo el cuerpo*/
+}
+#contenedor{
+	width:900px;
+	margin:auto;
+	margin-top:5px;
+	margin-bottom:20px;	
+}
+header{
+	height:150px;
+	background: url(../PROYECTO2/IMAGENES/h.jpg);
+}
+
+.foto1 {
+	padding: 5px;
+	margin: 0px;
+	float: left;
+	width: 110;
+	height="110";
+}
+.foto2 {
+	padding: 5px;
+	margin: 0px;
+	float: right;
+	width: 110;
+	height="110";
+}
+
+.foto3 {
+	padding: 5px;
+	margin: 0px;
+	float: center;
+	width: 110;
+	height: 150;
+	
+}
+
+
+#titulo h1{
+	width:900px;
+	font-size:24px;
+	text-align:center;
+	float:left;
+	line-height:110px;
+	border: #F8F8FF 2px solid;	
+}
+#logo{
+	width:100px;
+	font-size:10px;
+	text-align:center;
+	float:left;
+	line-height:110px;
+	border:#F8F8FF 2px solid;
+}
+nav{
+	width:898px;
+	height:60px;
+	border-color:#7DD82B;
+	border:#F8F8FF 2px solid;
+	margin-top:10px;
+	background-color:#000000;
+}
+nav h2{
+		text-align:center;
+		line-height:5px;
+		color:#F8F8FF; 
+		
+	}
+#informacion{
+		width:651px;
+		height:330px;
+		float:right;
+		border:#000000 2px solid;
+		margin-top:5px;
+		margin-bottom:5px;
+		background: url(../PROYECTO2/IMAGENES/fondito7.jpg);
+		color: #F8F8FF;
+	}
+	
+	.video1 {
+	padding: 1px;
+	margin: 0px;
+	float: left;
+	width: 110;
+	height="110";
+	}
+	
+	#inflormacion h3{
+		text-align:center;
+		line-height:50px;
+}
+	
+	
+	aside{
+		width:240px;
+		height:330px;
+		float:left;
+		border:#000000 2px solid;
+		margin-top:5px;
+		margin-bottom:5px;
+		background: url(../PROYECTO2/IMAGENES/fondito6.jpg);
+	}
+	aside h4{
+		text-align:center;
+		line-height:17px;
+		color: #F8F8FF;
+		size: 6px;
+		
+	}
+	
+	#informacion2{
+		width:898px;
+		height:330px;
+		float:right;
+		border:#000000 2px solid;
+		margin-top:2px;
+		margin-bottom:5px;
+		background: url(../PROYECTO2/IMAGENES/fondoo3.jpg);
+		color: #F8F8FF;
+	}
+	
+	#informacion  h5{
+		text-align:center;
+		line-height:50px;
+		size:9px;
+}
+
+.foto4{
+	padding: 60px;
+	margin: px;
+	float: left;
+	width: 110;
+	height:110;
+	
+	}
+	
+	.foto5{
+	padding: 60px;
+	margin: px;
+	float: right;
+	width: 110;
+	height:110;
+	
+	}
+	
+	footer{
+		border:#F8F8FF 2px solid;
+		height:50px;
+		clear:both;
+		background: url(../PROYECTO2/IMAGENES/h.jpg);
+		margin-top:5px;
+	}
+	footer h6{
+			text-align:center;
+			color: #F8F8FF;
+			size: 9px;
+		}
